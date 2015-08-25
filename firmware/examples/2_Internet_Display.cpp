@@ -1,4 +1,4 @@
-#include "serLCD/serLCD.h"
+#include "Serial_LCD_SparkFun/Serial_LCD_SparkFun.h"
 
 /* 
 This is a port of the wonderful library found here: http://playground.arduino.cc/Code/SerLCD
@@ -19,7 +19,7 @@ int lcdMsgRow1(String command);
 int lcdMsgRow2(String command);
 
 // Initialize the LCD library
-serLCD lcd = serLCD();
+Serial_LCD_SparkFun lcd = serLCD();
 
 void setup() {
  // Registering our two cloud functions

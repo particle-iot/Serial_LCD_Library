@@ -1,4 +1,4 @@
-#include "serLCD/serLCD.h"
+#include "Serial_LCD_SparkFun/Serial_LCD_SparkFun.h"
 
 /* 
 This is a port of the wonderful library found here: http://playground.arduino.cc/Code/SerLCD
@@ -11,7 +11,7 @@ of the LCD) and connect the LCD's `RX` pin to the Core or Photon's `TX` pin!
 */
 
 // Initialize the LCD library
-serLCD lcd = serLCD();
+Serial_LCD_SparkFun lcd = serLCD();
 
 void setup() {
  // Start with a blank slate
