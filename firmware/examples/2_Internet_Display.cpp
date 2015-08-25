@@ -19,7 +19,7 @@ int lcdMsgRow1(String command);
 int lcdMsgRow2(String command);
 
 // Initialize the LCD library
-Serial_LCD_SparkFun lcd = serLCD();
+Serial_LCD_SparkFun lcd = Serial_LCD_SparkFun();
 
 void setup() {
  // Registering our two cloud functions

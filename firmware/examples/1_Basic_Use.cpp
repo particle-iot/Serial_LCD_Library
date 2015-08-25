@@ -11,7 +11,7 @@ of the LCD) and connect the LCD's `RX` pin to the Core or Photon's `TX` pin!
 */
 
 // Initialize the LCD library
-Serial_LCD_SparkFun lcd = serLCD();
+Serial_LCD_SparkFun lcd = Serial_LCD_SparkFun();
 
 void setup() {
  // Start with a blank slate
